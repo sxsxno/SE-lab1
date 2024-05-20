@@ -5,6 +5,7 @@ import java.util.*;
 
 class WordNode{
     public String words; // 单词
+    private String data3;
     private List<WordNode> nextlist; // 有向图中的后继结点列表
     private List<Integer> valuelist; // 后继节点对应的边权值
     public int num; // next列表长度
